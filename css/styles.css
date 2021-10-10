@@ -24,12 +24,30 @@ body {
 }
 
 .header {
-  height: 80px;
+  height: 40px;
   font-size: 24px;
+  padding-top:16px;
+}
+
+.head-left {
+  font-weight: bold;
 }
 
 .sub-head {
   height: 240px;
+  padding: 32px 64px;
+  padding-top: 16px;
+}
+
+.sub-head-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+}
+
+.sub-head-bold {
+  font-size: 48px;
+  font-weight: bolder;
 }
 
 .head-ul {
@@ -38,10 +56,25 @@ body {
   gap: 24px;
 }
 
-.head-li {
+.head-li,
+.sub-head-normal {
   display: inline;
   font-size: 18px;
   color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 16px;
+  color: #F9fAF8;
+  font-weight: bold;
+}
+
+.sub-head-normal{
+  display: flex;
+  margin: 16px 0;
 }
 
 .footer {
